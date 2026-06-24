@@ -17,7 +17,7 @@ aggregated AS(
     ROUND(AVG(sales_in_thousands), 2) as avg_sales,
     ROUND(SUM(sales_in_thousands), 2) as total_sales,
     ROUND(STDDEV(sales_in_thousands), 2) as std_dev,
-  FROM `turing_data_analytics.wa_marketing_campaign`
+  FROM `wa_marketing_campaign`
   GROUP BY location_id, promotion
   ORDER BY location_id, promotion
 )
