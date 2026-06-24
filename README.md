@@ -2,6 +2,11 @@
 
 Determining which of three marketing promotions delivers the highest sales for a fast-food chain, using A/B testing and statistical hypothesis testing.
 
+## Link to Google Sheets Doc
+
+https://docs.google.com/spreadsheets/d/1o3bV_BWuA4qDeluv-4NzYk0DNqMDn0otLF-gSW6f2CE/edit?gid=665137800#gid=665137800
+
+
 ## Overview
 
 A fast-food company planning to add new menu items needed to decide which promotional strategy to run. Three promotions were tested across store locations, and the goal was to identify the one that drives the highest return. This project aggregates the raw campaign data, validates that the test groups are comparable, runs pairwise t-tests, and backs the conclusion with segment-level exploration (week, market size, store age).
@@ -15,7 +20,7 @@ Decide which marketing strategy works best by comparing the average sales genera
 
 ## Dataset
 
-Source table: `turing_data_analytics.wa_marketing_campaign` (BigQuery).
+Source table: `wa_marketing_campaign` (BigQuery).
 
 Key fields used:
 
